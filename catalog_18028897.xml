@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="catalog_18028897.css"?>
+
+<shop shop_name="Hamro car"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="catalog_18028897.xsd">
+    <aim>Buy Any Used Car </aim>
+    <shop_name registeration_no="213546576">HAMRO CAR</shop_name>
+    <backgroungImg></backgroungImg>
+    <shop_address>Itahari, 8</shop_address>
+    <telephone_number code="+021">4412356</telephone_number>
+    <website_address>www.hamrocar.com</website_address>
+    <logo />
+    <quantity>10</quantity>
+    <item body="SEDAN">
+        <photo name="dzire"></photo>
+        <item_name>Maruti Dzire</item_name>
+        <item_number>00342</item_number>
+        <item_type>SEDAN</item_type>
+        <description>The Maruti Dzire, as the name suggests, is the most desirable compact-sedan in India. The Dzire is based on India’s most-loved hatchback – the Maruti Swift. Though the first-gen Dzire was a full-size sedan, the next two generations came as a sub-four-metre compact-sedan. The car can carry five passengers and has got enough boot capacity. The compact dimensions also help in tight parking spots.
+      </description>
+        <detail>
+            <car_type>Fuel</car_type>
+            <manufacture country="india">Maruti Suzuki</manufacture>
+            <color>Blue</color>
+            <dimension>
+                <length>4,160 mm</length>
+                <width>1,690 mm</width>
+                <height>1,530 mm</height>
+            </dimension>
+            <make_year>2018</make_year>
+            <kilometer>5,000 km</kilometer>
+        </detail>
+        <insurance>2 years</insurance>
+        <condition>No Scrach</condition>
+        <price>$10,000</price>
+    </item>
+    <item body="SEDAN">
+        <photo name="camry"></photo>
+        <item_name>Toyota Camry Hybrid</item_name>
+        <item_number>0342</item_number>
+        <item_type>SEDAN</item_type>
+        <description>Toyota is an automobile sold internationally by the Japanese manufacturer Toyota since 1982, spanning multiple generations.The 2020 Toyota Camry Hybrid ranks near the top of the hybrid and electric car class. It combines a refined powertrain and respectable fuel efficiency with perfect safety marks and a good predicted reliability rating.
+      </description>
+        <detail>
+            <car_type>Hybird</car_type>
+            <manufacture country="japan">Toyota</manufacture>
+            <color>Black</color>
+            <dimension>
+                <length>4,885 mm</length>
+                <width>1,840 mm</width>
+                <height>1,445 mm</height>
+            </dimension>
+            <make_year>2020</make_year>
+            <kilometer>1,000 km</kilometer>
+        </detail>
+        <discount>5%-10%</discount>
+        <condition>Very Good</condition>
+        <price>$20,000</price>
+    </item>
+    <item body="HATCHBACK">
+        <photo name="modelS"></photo>
+        <item_name>Tesla Model S</item_name>
+        <item_number>456</item_number>
+        <item_type>HATCHBACK</item_type>
+        <description>The Tesla Model S can turn heads at 200 metres, even though it can't be heard from 10 metres away.The four door coupe EV has put Tesla on the map with prodigious performance from its twin electric motors and a high-tech interior, as well as an electric range that can top 550km on a single charge.
+      </description>
+        <detail>
+            <car_type>Eletric</car_type>
+            <manufacture country="australia">Telsa</manufacture>
+            <color>White</color>
+            <dimension>
+                <length>4,800 mm</length>
+                <width>2,000 mm</width>
+                <height>1,200 mm</height>
+            </dimension>
+            <make_year>2014</make_year>
+            <kilometer>100,000 km</kilometer>
+        </detail>
+        <warranty>6 months</warranty>
+        <condition>Like Fresh</condition>
+        <price>$28,000</price>
+    </item>
+    <item body="HATCHBACK">
+        <photo name="fiesta"></photo>
+        <item_name>Ford Fiesta</item_name>
+        <item_number>456</item_number>
+        <item_type>HATCHBACK</item_type>
+        <description>The Ford Fiesta is a supermini marketed by Ford since 1976 over seven generations. It has been manufactured in the United Kingdom, Germany, Spain, Australia, Brazil, Argentina, Venezuela, Mexico, China, India, Thailand, and South Africa. 
+      </description>
+        <detail>
+            <car_type>Fuel</car_type>
+            <manufacture country="United Kingdom">Ford</manufacture>
+            <color>Black</color>
+            <dimension>
+                <length>5,800 mm</length>
+                <width>2,550 mm</width>
+                <height>1,800 mm</height>
+            </dimension>
+            <make_year>2010</make_year>
+            <kilometer>200,000 km</kilometer>
+        </detail>
+        <offer>1 month service free</offer>
+        <warranty>1 month</warranty>
+        <condition>Well Maintained</condition>
+        <price>$5,000</price>
+    </item>
+    <item body="SUV">
+        <photo name="venue"></photo>
+        <item_name>Hyundai venue</item_name>
+        <item_number>001</item_number>
+        <item_type>SUV</item_type>
+        <description>The Hyundai Venue is a five-door subcompact crossover SUV manufactured by the South Korean manufacturer Hyundai and derived from the platform of its Accent subcompact car. The Venue debuted at the 2019 New York International Auto Show. The Venue fits below the Hyundai Kona in Hyundai's international lineup and below the Hyundai Creta in India and other markets where the Creta is sold.
+      </description>
+        <detail>
+            <car_type>Fuel</car_type>
+            <manufacture country="south korea">Hyundai</manufacture>
+            <color>Greyish-black</color>
+            <dimension>
+                <length>4,040 mm</length>
+                <width>1,770 mm</width>
+                <height>1,565 mm</height>
+            </dimension>
+            <make_year>2019</make_year>
+            <kilometer>10,000 km</kilometer>
+        </detail>
+        <finance>20% down payment</finance>
+        <insurance>2 years</insurance>
+        <offer>1 year tax free</offer>
+        <condition>Minor Accident</condition>
+        <price>$15,000</price>
+    </item>
+    <item body="SUV">
+        <photo name="audi"></photo>
+        <item_name>Audi Q5</item_name>
+        <item_number>23456</item_number>
+        <item_type>SUV</item_type>
+        <description>The Audi Q5 is a series of compact luxury crossover SUVs produced by the German luxury car manufacturer Audi from 2008. The original first-generation (Typ 8R) model was the third member of the B8 family to be released after the Audi A5 and fourth-generation A4, all being based on the Audi MLB platform. The second generation Q5 (Typ 80A) debuted in 2016. 
+      </description>
+        <detail>
+            <car_type>Hybird</car_type>
+            <manufacture country="germany">Audi</manufacture>
+            <color>Shiny Grey</color>
+            <dimension>
+                <length>4,640 mm</length>
+                <width>1,870 mm</width>
+                <height>1,665 mm</height>
+            </dimension>
+            <make_year>2008</make_year>
+            <kilometer>10,00,000 km</kilometer>
+        </detail>
+        <finance>30% down payment</finance>
+        <insurance>1 years</insurance>
+        <offer>1 service free</offer>
+        <condition>Well Condition</condition>
+        <price>$8,000</price>
+    </item>
+    <item body="SUV">
+        <photo name="wrangler"></photo>
+        <item_name>Jeep Wrangler Unlimited</item_name>
+        <item_number>0761</item_number>
+        <item_type>SUV</item_type>
+        <description>The Jeep Wrangler is a series of compact and mid-size (Wrangler Unlimited and Wrangler 2-door JL) four-wheel drive off-road SUVs, manufactured by Jeep since 1986, and currently in its fourth generation. The Wrangler JL, the most recent generation, was unveiled in late 2017 and is produced at Jeep's Toledo Complex. The Wrangler is arguably an indirect progression from the World War II Jeep, through the CJ (Civilian Jeeps) produced by Willys.
+      </description>
+        <detail>
+            <car_type>Fuel</car_type>
+            <manufacture country="USA">American Motors Corporation </manufacture>
+            <color>Greyish</color>
+            <dimension>
+                <length>5,040 mm</length>
+                <width>1,970 mm</width>
+                <height>1,865 mm</height>
+            </dimension>
+            <make_year>2018</make_year>
+            <kilometer>60,000 km</kilometer>
+        </detail>
+        <insurance>2 years</insurance>
+        <offer>2 year tax free</offer>
+        <condition>Minor Accident</condition>
+        <price>$9,000</price>
+    </item>
+    <item body="SUV">
+        <photo name="mercedes"></photo>
+        <item_name>Mercedes-Benz AMG GLC 63</item_name>
+        <item_number>846</item_number>
+        <item_type>SUV</item_type>
+        <description>The Mercedes-Benz GLC-Class (X253/C253) is a compact luxury Crossover SUV introduced in 2015 for the 2016 model year that replaces the former Mercedes-Benz GLK-Class. Under the vehicle naming scheme maintained by Mercedes-Benz, SUVs use the base name "GL", followed by the model's placement in Mercedes-Benz hierarchy.  
+      </description>
+        <detail>
+            <car_type>Hybird</car_type>
+            <manufacture country="germany">Daimler AG</manufacture>
+            <color>Red</color>
+            <dimension>
+                <length>4,640 mm</length>
+                <width>1,870 mm</width>
+                <height>1,665 mm</height>
+            </dimension>
+            <make_year>2008</make_year>
+            <kilometer>10,00,000 km</kilometer>
+        </detail>
+        <finance>30% down payment</finance>
+        <insurance>1 years</insurance>
+        <offer>1 year service free</offer>
+        <condition>Well Condition</condition>
+        <price>$8,000</price>
+    </item>
+    <item body="SUV">
+        <photo name="bmw"></photo>
+        <item_name>BMW X5 M</item_name>
+        <item_number>751</item_number>
+        <item_type>SUV</item_type>
+        <description>The X5 made its debut in 1999. It was BMW's first SUV and it also featured all-wheel drive and was available with either manual or automatic transmission. In 2006, the second generation X5 was launched, known internally as the E70. Introduced in the facelift version of the E53, the E70 also featured the torque-split capable xDrive all-wheel drive system mated to an automatic transmission. 
+      </description>
+        <detail>
+            <car_type>Fuel</car_type>
+            <manufacture country="mexico">BMW</manufacture>
+            <color>Blue</color>
+            <dimension>
+                <length>4,o40 mm</length>
+                <width>1,200 mm</width>
+                <height>1,205 mm</height>
+            </dimension>
+            <make_year>2016</make_year>
+            <kilometer>160,000 km</kilometer>
+        </detail>
+        <finance>25% down payment</finance>
+        <insurance>2 years</insurance>
+        <condition>Well Maintained</condition>
+        <price>$3,000</price>
+    </item>
+    <item body="SUV">
+        <photo name="highlander"></photo>
+        <item_name>Toyota Highlander Hybrid</item_name>
+        <item_number>2345</item_number>
+        <item_type>SUV</item_type>
+        <description>The Toyota Highlander, also known as the Toyota Kluger, is a mid-size crossover SUV produced by Toyota. It is built on the same platform as used on the Camry. Announced in April 2000 at the New York International Auto Show and arriving in late 2000 in Japan and January 2001 in North America, the Highlander became one of the first car-based mid-size SUV or mid-size crossovers.
+      </description>
+        <detail>
+            <car_type>Hybird</car_type>
+            <manufacture country="australia">Toyota</manufacture>
+            <color>Yellowish white</color>
+            <dimension>
+                <length>4,040 mm</length>
+                <width>1,070 mm</width>
+                <height>1,065 mm</height>
+            </dimension>
+            <make_year>20014</make_year>
+            <kilometer>1,00,000 km</kilometer>
+        </detail>
+        <finance>30% down payment</finance>
+        <offer>6 months service free</offer>
+        <condition>Well Condition</condition>
+        <price>$4,000</price>
+    </item>
+    <copy_right> Copyright © 2020 Hamro Car</copy_right>
+</shop>

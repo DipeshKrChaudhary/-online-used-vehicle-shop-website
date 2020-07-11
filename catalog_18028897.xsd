@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+  <xs:element name="shop">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="aim"/>
+        <xs:element ref="shop_name"/>
+        <xs:element ref="backgroungImg"/>
+        <xs:element ref="shop_address"/>
+        <xs:element ref="telephone_number"/>
+        <xs:element ref="website_address"/>
+        <xs:element ref="logo"/>
+        <xs:element ref="quantity"/>
+        <xs:element maxOccurs="unbounded" ref="item"/>
+        <xs:element ref="copy_right"/>
+      </xs:sequence>
+      <xs:attribute name="shop_name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="aim" type="xs:string"/>
+  <xs:element name="shop_name">
+   <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="registeration_no" use="required"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="backgroungImg">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="shop_address" type="xs:string"/>
+  <xs:element name="telephone_number">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:integer">
+          <xs:attribute name="code" use="required" type="xs:integer"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="website_address" type="xs:anyURI"/>
+  <xs:element name="logo">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="quantity" type="xs:integer"/>
+  <xs:element name="item">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="photo"/>
+        <xs:element ref="item_name"/>
+        <xs:element ref="item_number"/>
+        <xs:element ref="item_type"/>
+        <xs:element ref="description"/>
+        <xs:element ref="detail"/>
+        <xs:element ref="finance" minOccurs="0"/>
+        <xs:element ref="insurance" minOccurs="0"/>
+        <xs:element ref="discount" minOccurs="0"/>
+        <xs:element ref="offer" minOccurs="0"/>
+        <xs:element ref="warranty" minOccurs="0"/>       
+        <xs:element ref="condition"/>
+        <xs:element ref="price"/>
+      </xs:sequence>
+      <xs:attribute name="body" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="photo">
+    <xs:complexType>
+      <xs:attribute name="name" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="item_name" type="xs:string"/>
+  <xs:element name="item_number" type="xs:integer"/>
+  <xs:element name="item_type" type="xs:string"/>
+  <xs:element name="description" type="xs:string"/>
+  <xs:element name="detail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="car_type"/>
+        <xs:element ref="manufacture"/>
+        <xs:element ref="color"/>
+        <xs:element ref="dimension"/>
+        <xs:element ref="make_year"/>
+        <xs:element ref="kilometer"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="car_type" type="xs:string"/>
+  <xs:element name="manufacture">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="country" use="required"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="color" type="xs:string"/>
+  <xs:element name="dimension">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="length"/>
+        <xs:element ref="width"/>
+        <xs:element ref="height"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="length" type="xs:string"/>
+  <xs:element name="width" type="xs:string"/>
+  <xs:element name="height" type="xs:string"/>
+  <xs:element name="make_year" type="xs:integer"/>
+  <xs:element name="kilometer" type="xs:string"/>
+  <xs:element name="finance" type="xs:string"/>
+  <xs:element name="insurance" type="xs:string"/>
+  <xs:element name="offer" type="xs:string"/>
+  <xs:element name="discount" type="xs:string"/>
+  <xs:element name="warranty" type="xs:string"/>
+  <xs:element name="condition" type="xs:string"/>
+  <xs:element name="price" type="xs:string"/>
+  <xs:element name="copy_right" type="xs:string"/>
+</xs:schema>

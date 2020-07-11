@@ -1,0 +1,506 @@
+* {display: block}
+
+aim {
+
+  letter-spacing: 10px;
+  text-align: center;
+  font-size:25pt;
+  color:   #808080;
+  background: #232323;
+  text-shadow: 5 0 5px #FFF, 0 0 20px  #990000;/* offset-x | offset-y | blur-radius | color */
+     }
+
+backgroungImg{
+  width: 100%;
+  max-height: 570px;    
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('4.jpg'); /*inserting background image */
+  background-size: cover;
+  background-repeat: no-repeat; /*doesnot repeat image*/
+  height: 100vh; /* height of view port*/
+  position: relative;   
+    }
+
+shop_name
+ {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size:40px;
+  color: #FFFFFF;
+  background: #232323; 
+   
+}
+logo {
+	background-image: url('logo2.png');
+	height:400px;
+	width:400px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 28%; /*space at left at left side*/
+  top: -5%;  
+}
+
+
+
+
+website_address {
+    font-family: sans-serif;
+    color: red;
+    font-size: 20px;
+    line-height: 1.35;
+    position: relative;
+    padding-left: 35%;
+    margin-top: -90px;
+    color: white;
+
+}
+
+shop_address {
+    font-family: sans-serif;
+    color: red;
+    font-size: 20px;
+    line-height: 1.35;
+    position: relative;
+    padding-left: 40%;
+    margin-top: -90px;
+    color: white;
+
+
+}
+ telephone_number {
+    font-family: sans-serif;
+    color: red;
+    font-size: 20px;
+    line-height: 1.35;
+    position: relative; 
+    padding-left: 40%;
+    margin-top: -90px;
+    color: white;
+}
+
+quantity {
+    font-family: sans-serif;
+    color: red;
+    font-size: 20px;
+    line-height: 1.35;
+    position: relative; 
+    padding-left: 40%;
+    margin-top: 150px;
+    color: white;
+}
+
+
+ quantity::before {
+  content: "Avaliable cars: ";
+  font-size: 18px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+ 
+
+item {
+    padding-top: 18px;
+    color:white;
+    position: relative;
+    margin-top: 189px;
+    margin-left: 4px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    width: 48%;
+    height: 450px;
+    border-left: 2px white solid;
+    border-right: 4px white solid;
+    padding-left: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8));
+    background-size: contain;
+	  background-repeat: no-repeat;
+	  font-family: Arial, Helvetica, sans-serif;
+	  border-top: 1px white solid;
+    
+}
+
+
+item > item_name {
+	text-align: center;
+	font-size: 22px;
+  text-align: center;
+  color: white;
+}
+
+item >item_number, item_type, car_type, manufacture, color, length, width, height, make_year, price
+,kilometer, insurance, discount, offer, finance, service, warranty{
+	display: flex;
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant: small-caps;
+}
+ 
+ shop_address::before {
+  content: "Address: ";
+  font-size: 18px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+telephone_number::before {
+  content: "Contact: ";
+  font-size: 18px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+website_address::before {
+  content: "Web address: ";
+  font-size: 18px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+ item_number::before {
+  content: "Item no: ";
+  font-size: 18px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+ item_type::before {
+  content: "Body type: ";
+  font-size: 16px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+car_type::before {
+  content: "Engine: ";
+  font-size: 16px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+
+manufacture::before {
+  content: "manufacturer: ";
+  font-size: 16px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+color::before {
+  content: "Color: ";
+  font-size: 16px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+length::before {
+  content: "Length: ";
+  font-size: 16px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+width::before {
+  content: "Width: ";
+  font-size: 16px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+height::before {
+  content: "Height: ";
+  font-size: 16px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+make_year::before {
+  content: "Make year: ";
+  font-size: 16px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+kilometer::before {
+  content: "Kilometer: ";
+  font-size: 16px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+insurance::before {
+  content: "Insurance: ";
+  font-size: 16px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+price::before {
+  content: "Price: ";
+  font-size: 16px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+condition::before {
+  content: "Condition: ";
+  font-size: 16px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+discount::before {
+  content: "Discount: ";
+  font-size: 16px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+warranty::before {
+  content: "Warranty: ";
+  font-size: 16px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+offer::before {
+  content: "Offer: ";
+  font-size: 16px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+finance::before {
+  content: "Finance: ";
+  font-size: 16px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+description::before {
+    content: "Description: ";
+    text-decoration: underline;
+    display: list-item;
+    list-style: disc inside; 
+    font-size: 16px;
+    font-weight: bold;
+    font-variant: small-caps;
+    
+}
+
+detail::before {
+    content: "Detail: ";
+    text-decoration: underline;
+    display: list-item;
+    list-style: disc inside; 
+    font-size: 16px;
+    font-weight: bold;
+    font-variant: small-caps;
+    
+}
+
+dimension::before {
+   content: "Dimension: ";
+    text-decoration: underline;
+    display: list-item;
+    list-style: disc inside; 
+    font-size: 16px;
+    font-weight: bold;
+    font-variant: small-caps;
+    
+}
+photo[name="dzire"]{
+	background-image: url('dzire.png');
+	height:200px;
+	width:210px;
+
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 65%; 
+    top: -4%;  
+}
+
+photo[name="camry"]{
+	background-image: url('camry.jpg');
+	height:200px;
+	width:200px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 65%; 
+    top: -4%;  
+}
+
+item[body="HATCHBACK"] {
+    padding-top: 18px;
+    color:white;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 4px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    width: 48%;
+    height: 450px;
+    border-left: 2px white solid;
+    padding-left: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8));
+    background-size: contain;
+	  background-repeat: no-repeat;
+   	font-family: Arial, Helvetica, sans-serif;     
+    border-top: 1px white solid;
+   border-right: 4px white solid;
+}
+
+photo[name="modelS"]{
+  background-image: url('modelS.jpg');
+  height:200px;
+  width:210px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 65%;
+  top: -2.5%;  
+}
+
+photo[name="fiesta"]{
+	background-image: url('fiesta.png');
+	height:200px;
+	width:200px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 65%; 
+  top: -3%;  
+}
+
+make_year{
+	text-decoration: overline;
+}
+
+item_number {
+  text-decoration: underline overline;
+}
+
+item[body="SUV"] {
+    padding-top: 18px;
+    color:white;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 4px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    width: 48%;
+    height: 450px;
+    border-left: 2px #ff3300 solid;
+    padding-left: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8));
+    background-size: contain;
+	  background-repeat: no-repeat;
+  	font-family: Arial, Helvetica, sans-serif;       
+    border-bottom: 1px white solid;
+    border-left: 2px white solid;
+    border-right: 4px white solid;
+    border-top: 1px white solid;
+   
+}
+
+
+copy_right{
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color:white; 
+	text-decoration: underline overline;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),url(logo.png);
+
+}
+
+photo[name="venue"]{
+	background-image: url('venue.png');
+	height:200px;
+	width:210px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 65%; 
+  top: -4%;  
+}
+
+photo[name="audi"]{
+	background-image: url('audi.png');
+	height:200px;
+	width:200px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 65%; 
+    top: -3.5%;  
+}
+
+photo[name="wrangler"]{
+  background-image: url('wrangler.jpg');
+  height:100px;
+  width:210px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 70%; 
+    top: -1.5%;  
+}
+
+photo[name="mercedes"]{
+  background-image: url('mercedes.png');
+  height:200px;
+  width:200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 70%; 
+    top: -3%;  
+}
+
+photo[name="bmw"]{
+  background-image: url('bmw.png');
+  height:200px;
+  width:200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 65%; 
+    top: -3%;  
+}
+
+
+photo[name="highlander"]{
+  background-image: url('toyota.png');
+  height:200px;
+  width:200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 70%; 
+    top: -3%;  
+}
